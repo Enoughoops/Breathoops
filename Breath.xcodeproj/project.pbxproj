@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80512862063875000FDE897 /* PinsiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D80512842063875000FDE897 /* PinsiteCell.m */; };
+		D80512872063875000FDE897 /* PinsiteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D80512852063875000FDE897 /* PinsiteCell.xib */; };
+		D805128A20638AC000FDE897 /* ENHCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805128920638ABF00FDE897 /* ENHCollectionViewController.m */; };
+		D82ACE782011C7D2004C3359 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ACE772011C7D2004C3359 /* ShareViewController.swift */; };
+		D82ACE7B2011C7D2004C3359 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82ACE792011C7D2004C3359 /* MainInterface.storyboard */; };
+		D82ACE7F2011C7D2004C3359 /* BreathShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D82ACE752011C7D2004C3359 /* BreathShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D82ACE882011CD34004C3359 /* ShareViewController+sharedApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ACE872011CD34004C3359 /* ShareViewController+sharedApplication.swift */; };
+		D82D69C3205678D9009AAB80 /* ActionViewController+breathing.m in Sources */ = {isa = PBXBuildFile; fileRef = D82D69C1205678D7009AAB80 /* ActionViewController+breathing.m */; };
+		D82D69C72056A36D009AAB80 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88FF91220109508006ABFE5 /* ActionViewController.m */; };
+		D82DDBF0200367A000B59475 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DDBEF200367A000B59475 /* ActionViewController.swift */; };
+		D82DDBF3200367A000B59475 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82DDBF1200367A000B59475 /* MainInterface.storyboard */; };
+		D82DDBF7200367A000B59475 /* BreathLess.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D82DDBED200367A000B59475 /* BreathLess.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D83E5B3F1FFF63DE006FC0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B3E1FFF63DE006FC0CA /* AppDelegate.m */; };
 		D83E5B421FFF63DE006FC0CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B411FFF63DE006FC0CA /* ViewController.m */; };
 		D83E5B451FFF63DE006FC0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83E5B431FFF63DE006FC0CA /* Main.storyboard */; };
@@ -15,9 +27,45 @@
 		D83E5B4D1FFF63DE006FC0CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B4C1FFF63DE006FC0CA /* main.m */; };
 		D83E5B571FFF63DF006FC0CA /* BreathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B561FFF63DF006FC0CA /* BreathTests.m */; };
 		D83E5B621FFF63DF006FC0CA /* BreathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B611FFF63DF006FC0CA /* BreathUITests.m */; };
+		D83E5B941FFF665A006FC0CA /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B921FFF6658006FC0CA /* BNRWebViewController.m */; };
+		D83E5B9D1FFF69AD006FC0CA /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E5B9C1FFF69AD006FC0CA /* ActionRequestHandler.m */; };
+		D83E5B9F1FFF69AD006FC0CA /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = D83E5B9E1FFF69AD006FC0CA /* Action.js */; };
+		D83E5BA31FFF69AD006FC0CA /* Open In Breateh.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D83E5B991FFF69AD006FC0CA /* Open In Breateh.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D83E5BAF200087E6006FC0CA /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83E5BAE200087E6006FC0CA /* ActionRequestHandler.swift */; };
+		D83E5BB1200087E6006FC0CA /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = D83E5BB0200087E6006FC0CA /* Action.js */; };
+		D83E5BB5200087E6006FC0CA /* BreathAway.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D83E5BAC200087E6006FC0CA /* BreathAway.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D88FF91320109508006ABFE5 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88FF91220109508006ABFE5 /* ActionViewController.m */; };
+		D88FF91620109508006ABFE5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88FF91420109508006ABFE5 /* MainInterface.storyboard */; };
+		D88FF91A20109508006ABFE5 /* Open In Smile.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D88FF90F20109508006ABFE5 /* Open In Smile.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8A8BB662063A7C800485782 /* ENHPinsite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB652063A7C800485782 /* ENHPinsite.m */; };
+		D8A8BB692063A9A200485782 /* ENHPinsiteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB682063A9A200485782 /* ENHPinsiteStore.m */; };
+		D8A8BB6F2064AC4800485782 /* thing05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB6A2064AC4300485782 /* thing05.jpg */; };
+		D8A8BB702064AC4800485782 /* thing01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB6B2064AC4400485782 /* thing01.jpg */; };
+		D8A8BB712064AC4800485782 /* thing02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB6C2064AC4500485782 /* thing02.jpg */; };
+		D8A8BB722064AC4800485782 /* thing03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB6D2064AC4600485782 /* thing03.jpg */; };
+		D8A8BB732064AC4800485782 /* thing04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB6E2064AC4700485782 /* thing04.jpg */; };
+		D8A8BB782064EF1D00485782 /* BNRTransitionPop.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB752064EF1B00485782 /* BNRTransitionPop.m */; };
+		D8A8BB7C2064F1D000485782 /* UIViewController+BNRSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB7B2064F1CF00485782 /* UIViewController+BNRSnapshot.m */; };
+		D8A8BB7F2064F84100485782 /* BNRTransitionPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB7D2064F83E00485782 /* BNRTransitionPush.m */; };
+		D8A8BB882068D51C00485782 /* AddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BB862068D51C00485782 /* AddCell.m */; };
+		D8A8BB892068D51C00485782 /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8BB872068D51C00485782 /* AddCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D82ACE7D2011C7D2004C3359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82ACE742011C7D2004C3359;
+			remoteInfo = BreathShare;
+		};
+		D82DDBF5200367A000B59475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82DDBEC200367A000B59475;
+			remoteInfo = BreathLess;
+		};
 		D83E5B531FFF63DF006FC0CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
@@ -32,9 +80,66 @@
 			remoteGlobalIDString = D83E5B391FFF63DE006FC0CA;
 			remoteInfo = Breath;
 		};
+		D83E5BA11FFF69AD006FC0CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83E5B981FFF69AD006FC0CA;
+			remoteInfo = "Open In Breateh";
+		};
+		D83E5BB3200087E6006FC0CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83E5BAB200087E6006FC0CA;
+			remoteInfo = BreathAway;
+		};
+		D88FF91820109508006ABFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83E5B321FFF63DE006FC0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88FF90E20109508006ABFE5;
+			remoteInfo = "Open In Smile";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D83E5BA71FFF69AD006FC0CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D82ACE7F2011C7D2004C3359 /* BreathShare.appex in Embed App Extensions */,
+				D82DDBF7200367A000B59475 /* BreathLess.appex in Embed App Extensions */,
+				D83E5BB5200087E6006FC0CA /* BreathAway.appex in Embed App Extensions */,
+				D88FF91A20109508006ABFE5 /* Open In Smile.appex in Embed App Extensions */,
+				D83E5BA31FFF69AD006FC0CA /* Open In Breateh.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D80512832063875000FDE897 /* PinsiteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinsiteCell.h; sourceTree = "<group>"; };
+		D80512842063875000FDE897 /* PinsiteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinsiteCell.m; sourceTree = "<group>"; };
+		D80512852063875000FDE897 /* PinsiteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinsiteCell.xib; sourceTree = "<group>"; };
+		D805128820638ABF00FDE897 /* ENHCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHCollectionViewController.h; sourceTree = "<group>"; };
+		D805128920638ABF00FDE897 /* ENHCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHCollectionViewController.m; sourceTree = "<group>"; };
+		D82ACE752011C7D2004C3359 /* BreathShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BreathShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82ACE772011C7D2004C3359 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		D82ACE7A2011C7D2004C3359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D82ACE7C2011C7D2004C3359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82ACE872011CD34004C3359 /* ShareViewController+sharedApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShareViewController+sharedApplication.swift"; sourceTree = "<group>"; };
+		D82D69C1205678D7009AAB80 /* ActionViewController+breathing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ActionViewController+breathing.m"; sourceTree = "<group>"; };
+		D82D69C2205678D8009AAB80 /* ActionViewController+breathing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ActionViewController+breathing.h"; sourceTree = "<group>"; };
+		D82D69C82057AC70009AAB80 /* Breath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breath.entitlements; sourceTree = "<group>"; };
+		D82D69C92057ACF7009AAB80 /* Open In Smile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Open In Smile.entitlements"; sourceTree = "<group>"; };
+		D82DDBED200367A000B59475 /* BreathLess.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BreathLess.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82DDBEF200367A000B59475 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		D82DDBF2200367A000B59475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D82DDBF4200367A000B59475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D83E5B3A1FFF63DE006FC0CA /* Breath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83E5B3D1FFF63DE006FC0CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D83E5B3E1FFF63DE006FC0CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,9 +156,57 @@
 		D83E5B5D1FFF63DF006FC0CA /* BreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83E5B611FFF63DF006FC0CA /* BreathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreathUITests.m; sourceTree = "<group>"; };
 		D83E5B631FFF63DF006FC0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83E5B921FFF6658006FC0CA /* BNRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
+		D83E5B931FFF6659006FC0CA /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		D83E5B991FFF69AD006FC0CA /* Open In Breateh.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open In Breateh.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83E5B9B1FFF69AD006FC0CA /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		D83E5B9C1FFF69AD006FC0CA /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		D83E5B9E1FFF69AD006FC0CA /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		D83E5BA01FFF69AD006FC0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83E5BAC200087E6006FC0CA /* BreathAway.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BreathAway.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83E5BAE200087E6006FC0CA /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		D83E5BB0200087E6006FC0CA /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		D83E5BB2200087E6006FC0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88FF90F20109508006ABFE5 /* Open In Smile.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open In Smile.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88FF91120109508006ABFE5 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		D88FF91220109508006ABFE5 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		D88FF91520109508006ABFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D88FF91720109508006ABFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A8BB642063A7C800485782 /* ENHPinsite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHPinsite.h; sourceTree = "<group>"; };
+		D8A8BB652063A7C800485782 /* ENHPinsite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHPinsite.m; sourceTree = "<group>"; };
+		D8A8BB672063A9A200485782 /* ENHPinsiteStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHPinsiteStore.h; sourceTree = "<group>"; };
+		D8A8BB682063A9A200485782 /* ENHPinsiteStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHPinsiteStore.m; sourceTree = "<group>"; };
+		D8A8BB6A2064AC4300485782 /* thing05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thing05.jpg; path = "Thing images/thing05.jpg"; sourceTree = "<group>"; };
+		D8A8BB6B2064AC4400485782 /* thing01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thing01.jpg; path = "Thing images/thing01.jpg"; sourceTree = "<group>"; };
+		D8A8BB6C2064AC4500485782 /* thing02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thing02.jpg; path = "Thing images/thing02.jpg"; sourceTree = "<group>"; };
+		D8A8BB6D2064AC4600485782 /* thing03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thing03.jpg; path = "Thing images/thing03.jpg"; sourceTree = "<group>"; };
+		D8A8BB6E2064AC4700485782 /* thing04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thing04.jpg; path = "Thing images/thing04.jpg"; sourceTree = "<group>"; };
+		D8A8BB742064EF1A00485782 /* BNRTransitionPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRTransitionPop.h; sourceTree = "<group>"; };
+		D8A8BB752064EF1B00485782 /* BNRTransitionPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRTransitionPop.m; sourceTree = "<group>"; };
+		D8A8BB7A2064F1CE00485782 /* UIViewController+BNRSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BNRSnapshot.h"; sourceTree = "<group>"; };
+		D8A8BB7B2064F1CF00485782 /* UIViewController+BNRSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BNRSnapshot.m"; sourceTree = "<group>"; };
+		D8A8BB7D2064F83E00485782 /* BNRTransitionPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRTransitionPush.m; sourceTree = "<group>"; };
+		D8A8BB7E2064F83F00485782 /* BNRTransitionPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRTransitionPush.h; sourceTree = "<group>"; };
+		D8A8BB852068D51C00485782 /* AddCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCell.h; sourceTree = "<group>"; };
+		D8A8BB862068D51C00485782 /* AddCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCell.m; sourceTree = "<group>"; };
+		D8A8BB872068D51C00485782 /* AddCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D82ACE722011C7D2004C3359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DDBEA200367A000B59475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D83E5B371FFF63DE006FC0CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,16 +228,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D83E5B961FFF69AD006FC0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83E5BA9200087E6006FC0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88FF90C20109508006ABFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D82ACE762011C7D2004C3359 /* BreathShare */ = {
+			isa = PBXGroup;
+			children = (
+				D82ACE772011C7D2004C3359 /* ShareViewController.swift */,
+				D82ACE792011C7D2004C3359 /* MainInterface.storyboard */,
+				D82ACE7C2011C7D2004C3359 /* Info.plist */,
+			);
+			path = BreathShare;
+			sourceTree = "<group>";
+		};
+		D82DDBEE200367A000B59475 /* BreathLess */ = {
+			isa = PBXGroup;
+			children = (
+				D82DDBEF200367A000B59475 /* ActionViewController.swift */,
+				D82DDBF1200367A000B59475 /* MainInterface.storyboard */,
+				D82DDBF4200367A000B59475 /* Info.plist */,
+			);
+			path = BreathLess;
+			sourceTree = "<group>";
+		};
 		D83E5B311FFF63DE006FC0CA = {
 			isa = PBXGroup;
 			children = (
 				D83E5B3C1FFF63DE006FC0CA /* Breath */,
 				D83E5B551FFF63DF006FC0CA /* BreathTests */,
 				D83E5B601FFF63DF006FC0CA /* BreathUITests */,
+				D83E5B9A1FFF69AD006FC0CA /* Open In Breateh */,
+				D83E5BAD200087E6006FC0CA /* BreathAway */,
+				D82DDBEE200367A000B59475 /* BreathLess */,
+				D88FF91020109508006ABFE5 /* Open In Smile */,
+				D82ACE762011C7D2004C3359 /* BreathShare */,
 				D83E5B3B1FFF63DE006FC0CA /* Products */,
+				D88FF9272010A30A006ABFE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +294,11 @@
 				D83E5B3A1FFF63DE006FC0CA /* Breath.app */,
 				D83E5B521FFF63DF006FC0CA /* BreathTests.xctest */,
 				D83E5B5D1FFF63DF006FC0CA /* BreathUITests.xctest */,
+				D83E5B991FFF69AD006FC0CA /* Open In Breateh.appex */,
+				D83E5BAC200087E6006FC0CA /* BreathAway.appex */,
+				D82DDBED200367A000B59475 /* BreathLess.appex */,
+				D88FF90F20109508006ABFE5 /* Open In Smile.appex */,
+				D82ACE752011C7D2004C3359 /* BreathShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +306,22 @@
 		D83E5B3C1FFF63DE006FC0CA /* Breath */ = {
 			isa = PBXGroup;
 			children = (
+				D8A8BB7E2064F83F00485782 /* BNRTransitionPush.h */,
+				D8A8BB7D2064F83E00485782 /* BNRTransitionPush.m */,
+				D8A8BB7A2064F1CE00485782 /* UIViewController+BNRSnapshot.h */,
+				D8A8BB7B2064F1CF00485782 /* UIViewController+BNRSnapshot.m */,
+				D8A8BB742064EF1A00485782 /* BNRTransitionPop.h */,
+				D8A8BB752064EF1B00485782 /* BNRTransitionPop.m */,
+				D8A8BB6B2064AC4400485782 /* thing01.jpg */,
+				D8A8BB6C2064AC4500485782 /* thing02.jpg */,
+				D8A8BB6D2064AC4600485782 /* thing03.jpg */,
+				D8A8BB6E2064AC4700485782 /* thing04.jpg */,
+				D8A8BB6A2064AC4300485782 /* thing05.jpg */,
+				D82D69C82057AC70009AAB80 /* Breath.entitlements */,
+				D82D69C2205678D8009AAB80 /* ActionViewController+breathing.h */,
+				D82D69C1205678D7009AAB80 /* ActionViewController+breathing.m */,
+				D83E5B931FFF6659006FC0CA /* BNRWebViewController.h */,
+				D83E5B921FFF6658006FC0CA /* BNRWebViewController.m */,
 				D83E5B3D1FFF63DE006FC0CA /* AppDelegate.h */,
 				D83E5B3E1FFF63DE006FC0CA /* AppDelegate.m */,
 				D83E5B401FFF63DE006FC0CA /* ViewController.h */,
@@ -110,6 +331,19 @@
 				D83E5B481FFF63DE006FC0CA /* LaunchScreen.storyboard */,
 				D83E5B4B1FFF63DE006FC0CA /* Info.plist */,
 				D83E5B4C1FFF63DE006FC0CA /* main.m */,
+				D82ACE872011CD34004C3359 /* ShareViewController+sharedApplication.swift */,
+				D80512832063875000FDE897 /* PinsiteCell.h */,
+				D80512842063875000FDE897 /* PinsiteCell.m */,
+				D80512852063875000FDE897 /* PinsiteCell.xib */,
+				D805128820638ABF00FDE897 /* ENHCollectionViewController.h */,
+				D805128920638ABF00FDE897 /* ENHCollectionViewController.m */,
+				D8A8BB642063A7C800485782 /* ENHPinsite.h */,
+				D8A8BB652063A7C800485782 /* ENHPinsite.m */,
+				D8A8BB672063A9A200485782 /* ENHPinsiteStore.h */,
+				D8A8BB682063A9A200485782 /* ENHPinsiteStore.m */,
+				D8A8BB852068D51C00485782 /* AddCell.h */,
+				D8A8BB862068D51C00485782 /* AddCell.m */,
+				D8A8BB872068D51C00485782 /* AddCell.xib */,
 			);
 			path = Breath;
 			sourceTree = "<group>";
@@ -132,9 +366,83 @@
 			path = BreathUITests;
 			sourceTree = "<group>";
 		};
+		D83E5B9A1FFF69AD006FC0CA /* Open In Breateh */ = {
+			isa = PBXGroup;
+			children = (
+				D83E5B9B1FFF69AD006FC0CA /* ActionRequestHandler.h */,
+				D83E5B9C1FFF69AD006FC0CA /* ActionRequestHandler.m */,
+				D83E5B9E1FFF69AD006FC0CA /* Action.js */,
+				D83E5BA01FFF69AD006FC0CA /* Info.plist */,
+			);
+			path = "Open In Breateh";
+			sourceTree = "<group>";
+		};
+		D83E5BAD200087E6006FC0CA /* BreathAway */ = {
+			isa = PBXGroup;
+			children = (
+				D83E5BAE200087E6006FC0CA /* ActionRequestHandler.swift */,
+				D83E5BB0200087E6006FC0CA /* Action.js */,
+				D83E5BB2200087E6006FC0CA /* Info.plist */,
+			);
+			path = BreathAway;
+			sourceTree = "<group>";
+		};
+		D88FF91020109508006ABFE5 /* Open In Smile */ = {
+			isa = PBXGroup;
+			children = (
+				D82D69C92057ACF7009AAB80 /* Open In Smile.entitlements */,
+				D88FF91120109508006ABFE5 /* ActionViewController.h */,
+				D88FF91220109508006ABFE5 /* ActionViewController.m */,
+				D88FF91420109508006ABFE5 /* MainInterface.storyboard */,
+				D88FF91720109508006ABFE5 /* Info.plist */,
+			);
+			path = "Open In Smile";
+			sourceTree = "<group>";
+		};
+		D88FF9272010A30A006ABFE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D82ACE742011C7D2004C3359 /* BreathShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82ACE802011C7D3004C3359 /* Build configuration list for PBXNativeTarget "BreathShare" */;
+			buildPhases = (
+				D82ACE712011C7D2004C3359 /* Sources */,
+				D82ACE722011C7D2004C3359 /* Frameworks */,
+				D82ACE732011C7D2004C3359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathShare;
+			productName = BreathShare;
+			productReference = D82ACE752011C7D2004C3359 /* BreathShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D82DDBEC200367A000B59475 /* BreathLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82DDBF8200367A000B59475 /* Build configuration list for PBXNativeTarget "BreathLess" */;
+			buildPhases = (
+				D82DDBE9200367A000B59475 /* Sources */,
+				D82DDBEA200367A000B59475 /* Frameworks */,
+				D82DDBEB200367A000B59475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathLess;
+			productName = BreathLess;
+			productReference = D82DDBED200367A000B59475 /* BreathLess.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D83E5B391FFF63DE006FC0CA /* Breath */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83E5B661FFF63DF006FC0CA /* Build configuration list for PBXNativeTarget "Breath" */;
@@ -142,10 +450,16 @@
 				D83E5B361FFF63DE006FC0CA /* Sources */,
 				D83E5B371FFF63DE006FC0CA /* Frameworks */,
 				D83E5B381FFF63DE006FC0CA /* Resources */,
+				D83E5BA71FFF69AD006FC0CA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D83E5BA21FFF69AD006FC0CA /* PBXTargetDependency */,
+				D83E5BB4200087E6006FC0CA /* PBXTargetDependency */,
+				D82DDBF6200367A000B59475 /* PBXTargetDependency */,
+				D88FF91920109508006ABFE5 /* PBXTargetDependency */,
+				D82ACE7E2011C7D2004C3359 /* PBXTargetDependency */,
 			);
 			name = Breath;
 			productName = Breath;
@@ -188,18 +502,85 @@
 			productReference = D83E5B5D1FFF63DF006FC0CA /* BreathUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D83E5B981FFF69AD006FC0CA /* Open In Breateh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83E5BA41FFF69AD006FC0CA /* Build configuration list for PBXNativeTarget "Open In Breateh" */;
+			buildPhases = (
+				D83E5B951FFF69AD006FC0CA /* Sources */,
+				D83E5B961FFF69AD006FC0CA /* Frameworks */,
+				D83E5B971FFF69AD006FC0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open In Breateh";
+			productName = "Open In Breateh";
+			productReference = D83E5B991FFF69AD006FC0CA /* Open In Breateh.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D83E5BAB200087E6006FC0CA /* BreathAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83E5BB6200087E6006FC0CA /* Build configuration list for PBXNativeTarget "BreathAway" */;
+			buildPhases = (
+				D83E5BA8200087E6006FC0CA /* Sources */,
+				D83E5BA9200087E6006FC0CA /* Frameworks */,
+				D83E5BAA200087E6006FC0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathAway;
+			productName = BreathAway;
+			productReference = D83E5BAC200087E6006FC0CA /* BreathAway.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D88FF90E20109508006ABFE5 /* Open In Smile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88FF91D20109508006ABFE5 /* Build configuration list for PBXNativeTarget "Open In Smile" */;
+			buildPhases = (
+				D88FF90B20109508006ABFE5 /* Sources */,
+				D88FF90C20109508006ABFE5 /* Frameworks */,
+				D88FF90D20109508006ABFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open In Smile";
+			productName = "Open In Smile";
+			productReference = D88FF90F20109508006ABFE5 /* Open In Smile.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D83E5B321FFF63DE006FC0CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = LinMo;
 				TargetAttributes = {
-					D83E5B391FFF63DE006FC0CA = {
+					D82ACE742011C7D2004C3359 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					D82DDBEC200367A000B59475 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					D83E5B391FFF63DE006FC0CA = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D83E5B511FFF63DF006FC0CA = {
 						CreatedOnToolsVersion = 9.1;
@@ -210,6 +591,23 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D83E5B391FFF63DE006FC0CA;
+					};
+					D83E5B981FFF69AD006FC0CA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D83E5BAB200087E6006FC0CA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D88FF90E20109508006ABFE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -229,18 +627,46 @@
 				D83E5B391FFF63DE006FC0CA /* Breath */,
 				D83E5B511FFF63DF006FC0CA /* BreathTests */,
 				D83E5B5C1FFF63DF006FC0CA /* BreathUITests */,
+				D83E5B981FFF69AD006FC0CA /* Open In Breateh */,
+				D83E5BAB200087E6006FC0CA /* BreathAway */,
+				D82DDBEC200367A000B59475 /* BreathLess */,
+				D88FF90E20109508006ABFE5 /* Open In Smile */,
+				D82ACE742011C7D2004C3359 /* BreathShare */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D82ACE732011C7D2004C3359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82ACE7B2011C7D2004C3359 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DDBEB200367A000B59475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DDBF3200367A000B59475 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D83E5B381FFF63DE006FC0CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80512872063875000FDE897 /* PinsiteCell.xib in Resources */,
 				D83E5B4A1FFF63DE006FC0CA /* LaunchScreen.storyboard in Resources */,
 				D83E5B471FFF63DE006FC0CA /* Assets.xcassets in Resources */,
+				D8A8BB892068D51C00485782 /* AddCell.xib in Resources */,
+				D8A8BB712064AC4800485782 /* thing02.jpg in Resources */,
 				D83E5B451FFF63DE006FC0CA /* Main.storyboard in Resources */,
+				D8A8BB6F2064AC4800485782 /* thing05.jpg in Resources */,
+				D8A8BB702064AC4800485782 /* thing01.jpg in Resources */,
+				D8A8BB722064AC4800485782 /* thing03.jpg in Resources */,
+				D8A8BB732064AC4800485782 /* thing04.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,16 +684,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D83E5B971FFF69AD006FC0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83E5B9F1FFF69AD006FC0CA /* Action.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83E5BAA200087E6006FC0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83E5BB1200087E6006FC0CA /* Action.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88FF90D20109508006ABFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88FF91620109508006ABFE5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D82ACE712011C7D2004C3359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82ACE882011CD34004C3359 /* ShareViewController+sharedApplication.swift in Sources */,
+				D82ACE782011C7D2004C3359 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DDBE9200367A000B59475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DDBF0200367A000B59475 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D83E5B361FFF63DE006FC0CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A8BB782064EF1D00485782 /* BNRTransitionPop.m in Sources */,
+				D805128A20638AC000FDE897 /* ENHCollectionViewController.m in Sources */,
+				D83E5B941FFF665A006FC0CA /* BNRWebViewController.m in Sources */,
+				D8A8BB7C2064F1D000485782 /* UIViewController+BNRSnapshot.m in Sources */,
 				D83E5B421FFF63DE006FC0CA /* ViewController.m in Sources */,
+				D8A8BB692063A9A200485782 /* ENHPinsiteStore.m in Sources */,
+				D8A8BB7F2064F84100485782 /* BNRTransitionPush.m in Sources */,
+				D8A8BB662063A7C800485782 /* ENHPinsite.m in Sources */,
+				D80512862063875000FDE897 /* PinsiteCell.m in Sources */,
 				D83E5B4D1FFF63DE006FC0CA /* main.m in Sources */,
 				D83E5B3F1FFF63DE006FC0CA /* AppDelegate.m in Sources */,
+				D82D69C72056A36D009AAB80 /* ActionViewController.m in Sources */,
+				D82D69C3205678D9009AAB80 /* ActionViewController+breathing.m in Sources */,
+				D8A8BB882068D51C00485782 /* AddCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +765,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D83E5B951FFF69AD006FC0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83E5B9D1FFF69AD006FC0CA /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83E5BA8200087E6006FC0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83E5BAF200087E6006FC0CA /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88FF90B20109508006ABFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88FF91320109508006ABFE5 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D82ACE7E2011C7D2004C3359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82ACE742011C7D2004C3359 /* BreathShare */;
+			targetProxy = D82ACE7D2011C7D2004C3359 /* PBXContainerItemProxy */;
+		};
+		D82DDBF6200367A000B59475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82DDBEC200367A000B59475 /* BreathLess */;
+			targetProxy = D82DDBF5200367A000B59475 /* PBXContainerItemProxy */;
+		};
 		D83E5B541FFF63DF006FC0CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D83E5B391FFF63DE006FC0CA /* Breath */;
@@ -300,9 +812,40 @@
 			target = D83E5B391FFF63DE006FC0CA /* Breath */;
 			targetProxy = D83E5B5E1FFF63DF006FC0CA /* PBXContainerItemProxy */;
 		};
+		D83E5BA21FFF69AD006FC0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83E5B981FFF69AD006FC0CA /* Open In Breateh */;
+			targetProxy = D83E5BA11FFF69AD006FC0CA /* PBXContainerItemProxy */;
+		};
+		D83E5BB4200087E6006FC0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83E5BAB200087E6006FC0CA /* BreathAway */;
+			targetProxy = D83E5BB3200087E6006FC0CA /* PBXContainerItemProxy */;
+		};
+		D88FF91920109508006ABFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88FF90E20109508006ABFE5 /* Open In Smile */;
+			targetProxy = D88FF91820109508006ABFE5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D82ACE792011C7D2004C3359 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82ACE7A2011C7D2004C3359 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		D82DDBF1200367A000B59475 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82DDBF2200367A000B59475 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		D83E5B431FFF63DE006FC0CA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,9 +862,87 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		D88FF91420109508006ABFE5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88FF91520109508006ABFE5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D82ACE812011C7D3004C3359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D82ACE822011C7D3004C3359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D82DDBF9200367A000B59475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D82DDBFA200367A000B59475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D83E5B641FFF63DF006FC0CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -370,7 +991,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +1040,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -429,13 +1050,19 @@
 		D83E5B671FFF63DF006FC0CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Breath/Breath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
 				INFOPLIST_FILE = Breath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,13 +1070,18 @@
 		D83E5B681FFF63DF006FC0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Breath/Breath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
 				INFOPLIST_FILE = Breath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -512,9 +1144,120 @@
 			};
 			name = Release;
 		};
+		D83E5BA51FFF69AD006FC0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = "Open In Breateh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmoops.Breath.Open-In-Breateh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83E5BA61FFF69AD006FC0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = "Open In Breateh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmoops.Breath.Open-In-Breateh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D83E5BB7200087E6006FC0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83E5BB8200087E6006FC0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = BreathAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linmoops.Breath.BreathAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D88FF91B20109508006ABFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Open In Smile/Open In Smile.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = "Open In Smile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmoops.Breath.Open-In-Smile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88FF91C20109508006ABFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Open In Smile/Open In Smile.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBH6J9CJ2;
+				INFOPLIST_FILE = "Open In Smile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmoops.Breath.Open-In-Smile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D82ACE802011C7D3004C3359 /* Build configuration list for PBXNativeTarget "BreathShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82ACE812011C7D3004C3359 /* Debug */,
+				D82ACE822011C7D3004C3359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82DDBF8200367A000B59475 /* Build configuration list for PBXNativeTarget "BreathLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82DDBF9200367A000B59475 /* Debug */,
+				D82DDBFA200367A000B59475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D83E5B351FFF63DE006FC0CA /* Build configuration list for PBXProject "Breath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -547,6 +1290,33 @@
 			buildConfigurations = (
 				D83E5B6D1FFF63DF006FC0CA /* Debug */,
 				D83E5B6E1FFF63DF006FC0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83E5BA41FFF69AD006FC0CA /* Build configuration list for PBXNativeTarget "Open In Breateh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83E5BA51FFF69AD006FC0CA /* Debug */,
+				D83E5BA61FFF69AD006FC0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83E5BB6200087E6006FC0CA /* Build configuration list for PBXNativeTarget "BreathAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83E5BB7200087E6006FC0CA /* Debug */,
+				D83E5BB8200087E6006FC0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88FF91D20109508006ABFE5 /* Build configuration list for PBXNativeTarget "Open In Smile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88FF91B20109508006ABFE5 /* Debug */,
+				D88FF91C20109508006ABFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
