@@ -119,7 +119,7 @@
     } else {
         BNRWebViewController *webViewController = [[BNRWebViewController alloc]init];
         webViewController.URL = [NSURL URLWithString:[userDefaults valueForKey:@"share-url"]];
-        [(UINavigationController *)self.window.rootViewController pushViewController:webViewController animated:YES];
+        [(UINavigationController *)self.window.rootViewController pushViewController:webViewController animated:NO];
     }
     [[ENHPinsiteStore sharedStore]addReadyPinsiteWithURL:[NSURL URLWithString:[userDefaults valueForKey:@"share-url"]]];
 
