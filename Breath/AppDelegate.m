@@ -12,7 +12,9 @@
 
 #import "ENHPinsiteStore.h"
 
-@interface AppDelegate ()
+#import "BNRTransitionPush.h"
+
+@interface AppDelegate () <UINavigationControllerDelegate>
 
 @end
 
@@ -119,13 +121,25 @@
     } else {
         BNRWebViewController *webViewController = [[BNRWebViewController alloc]init];
         webViewController.URL = [NSURL URLWithString:[userDefaults valueForKey:@"share-url"]];
-        [(UINavigationController *)self.window.rootViewController pushViewController:webViewController animated:NO];
+        [(UINavigationController *)self.window.rootViewController pushViewController:webViewController animated:YES];
     }
     [[ENHPinsiteStore sharedStore]addReadyPinsiteWithURL:[NSURL URLWithString:[userDefaults valueForKey:@"share-url"]]];
 
 //    userDefaults = nil;
 
     return YES;
+}
+
+#pragma mark <UINavigationControllerDelegate>
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
+    
+    if (fromVC == self && [toVC isKindOfClass:[BNRWebViewController class]]) {
+        return [[BNRTransitionPush alloc]init];
+    }
+    else {
+        return nil;
+    }
 }
 
 @end

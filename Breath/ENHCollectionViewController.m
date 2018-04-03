@@ -150,7 +150,7 @@ static NSString * const reuseIdentifier = @"Cell";
 #pragma mark <UINavigationControllerDelegate>
 
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
-    
+
     if (fromVC == self && [toVC isKindOfClass:[BNRWebViewController class]]) {
         return [[BNRTransitionPush alloc]init];
     }
